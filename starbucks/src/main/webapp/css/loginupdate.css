@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+article h2 {
+    display: block;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: -45px;
+    text-align: center;
+    color: #fff;
+}
+article .join_wrap {
+   max-width: 570px;
+    margin: 0 auto;
+    padding-top: 70px;
+   padding-bottom: 30px;
+}
+fieldset {
+   display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    background: white;
+}
+
+
+fieldset .input_box {
+   background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 20px;
+    position: relative;
+    display: block;
+}
+
+field .input_box .aja {
+	padding-left: 300px;
+}
+
+fieldset .input_box .logid {
+   padding: 12px;
+   width: 500px;
+   margin-bottom: 2px;
+}
+fieldset .input_box .id_check {
+   padding: 3px;
+   width: 80px;
+   margin-bottom: 12px;
+   text-align: center;
+   background: #005533;
+   color: white;
+   cursor: pointer; 
+   display:block;
+}
+#myid { 
+	font-size: 18px;
+	color: #005533;
+	font-weight: bold;
+	float: left;
+}
+fieldset .input_box .logpwd {
+   padding: 12px;
+   width: 500px;
+   margin-bottom: 12px;
+}
+
+fieldset .input_box .pwdconfirm {
+   padding: 12px;
+   width: 500px;
+   margin-bottom: 12px;
+} 
+fieldset .input_box .m_nick {
+   padding: 12px;
+   width: 500px;
+   margin-bottom: 12px;
+}
+fieldset .input_box .m_name {
+   padding: 12px;
+   width: 500px;
+   margin-bottom: 12px;
+}
+fieldset .brth {
+	display: inline-block;
+	margin-bottom: 12px;
+}
+
+fieldset .brth .m_birth1 {
+   width: 115px;
+   height: 36px;
+}
+fieldset .brth .m_birth2 {
+   width: 115px;
+   height: 36px; 
+}
+fieldset .brth .m_birth3 {
+   width: 115px; 
+   height: 36px; 
+}
+fieldset span {
+	color: #006633;
+	font-size: 14px;
+}
+fieldset .m_phone1 {
+
+   width: 115px; 
+   margin-bottom: 12px;
+   height: 36px;
+}
+fieldset .m_phone2 {
+
+   width: 113px;
+   margin-bottom: 12px;
+   height: 31px;
+}   
+fieldset .m_phone3 {
+
+   width: 113px;
+   margin-bottom: 12px;
+   height: 31px;
+}  
+
+fieldset .m_mail {
+   padding: 12px;
+   width: 500px;
+   margin-bottom: 12px;
+} 
+
+fieldset .m_post{
+   padding: 12px;
+   width: 100px;
+   margin-bottom: 12px;
+} 
+
+fieldset .m_adds {
+   padding: 12px;
+   width: 250px;
+   margin-bottom: 12px;
+} 
+fieldset .pos_bt {
+   width: 100px;
+   height: 42px; 
+   margin-bottom: 12px;
+   text-align: center; 
+   background: #005533;
+   color: white;
+   cursor: pointer;
+} 
+fieldset .log_no_btn {
+   margin: 0;   
+   margin-bottom: -10px;
+   margin-top: 10px;
+}
+fieldset .log_no_btn a {
+   text-decoration: none;
+}
+fieldset .log_btn { 
+   background: #005533;
+   text-align: center;
+   width: 533px;
+   height: 45px;
+   line-height: px; 
+   color: white;
+   font-size: 21px;
+   cursor: pointer;
+   border-radius: 5;
+}

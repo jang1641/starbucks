@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.project {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.project .project_sub {
+	padding: 20px;
+	background: #f4f4f2;
+	height: 20px;
+}
+.project .project_sub a {
+	display: block;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+.project img {
+	display: block;
+	float: left;
+	margin-left: 15px;
+	width: 45px;
+	height: 25px;
+}
+.project span {
+	display: block;
+	float: left;
+	margin-left: 5px;
+	font-size: 13px;
+    line-height: 25px;
+	letter-spacing: -1px;
+}
+.menu_view {
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 90px;
+}
+.menu_view  ul {
+
+}
+.menu_view  li {
+	float: left;
+	list-style: none;
+	width: 24%;
+    margin: 0.5%;
+}
+.menu_view img {
+	width: 100%;
+}
+.menu_view dd {
+	font-size: 14px;
+	
+	color: #444;
+	line-height: 45px;
+	text-align: center;
+	white-space: nowrap
+}	

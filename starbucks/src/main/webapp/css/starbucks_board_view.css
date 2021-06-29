@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+a {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.overflow {
+	clear: both;
+	width: 100%;
+	height: 1px;
+}
+
+.content {
+	width: 990px;
+	padding-bottom: 80px;
+	margin: 0px auto;
+}
+
+#smap {
+	float: right;
+	padding-bottom: 20px;
+}
+
+.smap ul li {
+	padding: 0 3px;
+	float: left;
+	list-style: none;
+	font-size: 11px;
+}
+
+.b_title {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 40px;
+	padding: 20px 40px;
+	height: 38px;
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.b_cont {
+	width: 990px;
+	resize: none;
+	width: 990px;
+	height: 200px;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+form {
+	float: right;
+}
+
+#search_input {
+	width: 321px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	text-indent: 10px;
+	color: #666;
+}
+
+#search_btn {
+	width: 54px;
+	height: 36px;
+	line-height: 38px;
+	background: #777;
+	border-radius: 3px;
+	border: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+li {
+	margin-left: 10px;
+	list-style: none;
+	float: left;
+}
+
+.btn_list_box {
+	float: right;
+}
+
+#btn_list1 {
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	width: 84px;
+	background-color: #666;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-bottom: 30px;
+	float: right;
+}
+
+#btn_list2 {
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	width: 84px;
+	background-color: red;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-bottom: 30px;
+	float: right;
+}
+
+#btn_list3 {
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	width: 84px;
+	background: #006633;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-bottom: 30px;
+	float: right;
+}
+
+table {
+	border-top: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 15px 0 15px 20px;
+	font-size: 14px;
+	color: #222222;
+	background: #f4f4f2;
+	text-align: left;
+	border-bottom: 1px solid #dddddd;
+	font-weight: bold;
+}
+
+th, td:nth-child(2) {
+	border-bottom: 1px solid black;
+}
+
+td a {
+	margin-left: 30px;
+	color: #666;
+	background: transparent;
+	cursor: pointer;
+}
